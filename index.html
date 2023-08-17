@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematik Segitiga</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h2 id="title">SEGITIGA</h2>
+    </header>
+    <div>
+        <form action="">
+            <div style="text-align: center;">
+                <img src="img/Rumus-Untuk-Mencari-Luas-Dan-Keliling-Segtiga.png" alt="" width="100%">
+            </div>
+            <br>
+            <div>
+                Di mana:<br>
+                L = Luas<br>
+                a = Alas<br>
+                t = Tinggi<br>
+                K = Keliling<br>
+                S1 = sisi a<br>
+                S2 = sisi b<br>
+                S3 = sisi c<br>
+            </div>
+            <br>
+            <div id="luas">
+                <h3>Hitung Luas Segitiga</h3>
+                <br>
+                <input type="number" placeholder="Nilai Alas" id="alas" name="alas">
+                <input type="numbber" placeholder="Nilai Tinggi" id="tinggi" name="tinggi">
+                <div id="result_luas"></div>
+            </div>
+            <br>
+            <div id="keliling">
+                <h3>Hitung Keliling Segitiga</h3>
+                <br>
+                <input type="number" placeholder="Nilai S1" id="s1" name="s1">
+                <input type="numbber" placeholder="Nilai S2" id="s2" name="s2">
+                <input type="numbber" placeholder="Nilai S3" id="s3" name="s3">
+                <div id="result_keliling"></div>
+            </div>
+            <br>
+            <button type="submit">Hitung</button>
+            <button type="reset" class="reset">Reset</button>
+        </form>
+    </div>
+</body>
+    <script src="js/script.js"></script>
+</html>
